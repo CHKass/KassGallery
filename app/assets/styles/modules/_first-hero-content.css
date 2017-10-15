@@ -1,6 +1,7 @@
 .first-hero-content {
 	position:relative;
 	color:$mainGrey;
+	margin-top:1.875rem;
 
 	&__title {
 		font-size:1.4rem;

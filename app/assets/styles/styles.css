@@ -3,5 +3,8 @@
 @import "base/_global";
 @import "modules/_first-hero-content";
 @import "modules/_page-content";
+@import "modules/_navigation";
+@import "modules/_current";
+@import "modules/_footer";
 
 

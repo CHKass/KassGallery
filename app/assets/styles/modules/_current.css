@@ -1,0 +1,13 @@
+.kassnav {
+	.current {
+		background-image:linear-gradient(to bottom, $mainBlue, #cfe1fb);
+	}
+
+	.current ul li:hover > a {
+		color:$mainBlue;
+		background-image:linear-gradient(to bottom, #cfe1fb, $mainBlue);
+	}
+
+}
+
+

@@ -452,6 +452,7 @@ template {
 
 body {
 	font-family:'Lato', sans-serif;
+	word-spacing:.125rem;
 	color:#808285;
 }
 
@@ -463,6 +464,7 @@ img {
 .first-hero-content {
 	position:relative;
 	color:#808285;
+	margin-top:1.875rem;
 }
 
 .first-hero-content__title {
@@ -483,6 +485,116 @@ img {
 .page-content {
 	margin-left:40px;
 	margin-right:40px;
+}
+
+.logo a {
+	display:block;
+	width:100%;
+	margin-top:2rem;
+	margin-left:2.5rem;
+	margin-bottom:.2rem;
+	text-decoration:none;
+	color:#5c90a3;
+	font-weight:100;
+	font-size:2.2rem;
+}
+
+.kassnav ul {
+	display:block;
+	list-style:none;
+}
+
+.kassnav ul li a {
+	float:left;
+	margin-bottom:1rem;
+	margin-right:0.3125rem;
+	width:8rem;
+	height:2.125rem;
+	padding-top:0.7rem;
+	padding-left:0.8rem;
+	text-decoration:none;
+	color:#fff;
+	font-weight:300;
+	font-size:1.2rem;
+	line-height:1.4rem;
+	word-spacing:.25rem;
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#cfe1fb), to(#5c90a3));
+	background-image:linear-gradient(to bottom, #cfe1fb, #5c90a3);
+	-webkit-box-shadow:0 5px 4px rgba(0, 0, 0, .25);
+	        box-shadow:0 5px 4px rgba(0, 0, 0, .25);
+	-webkit-transition:0.8s ease-out;
+	transition:0.8s ease-out;
+	
+}
+
+.kassnav ul li:hover > a {
+	color:#5c90a3;
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#5c90a3), to(#cfe1fb));
+	background-image:linear-gradient(to bottom, #5c90a3, #cfe1fb);
+	}
+
+.kassnav ul li.active > a {
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#5c90a3), to(#cfe1fb));
+	background-image:linear-gradient(to bottom, #5c90a3, #cfe1fb);
+	}
+
+/* Clearfix Method */
+
+/* =============== */
+
+.fix {
+	clear: both;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+
+/* /End Clearfix Method */
+
+/* ==================== */
+
+/* Start Reveal and Hide Styles */
+
+/* ============================ */
+
+.kassnav .current {
+		background-image:-webkit-gradient(linear, left top, left bottom, from(#5c90a3), to(#cfe1fb));
+		background-image:linear-gradient(to bottom, #5c90a3, #cfe1fb);
+	}
+
+.kassnav .current ul li:hover > a {
+		color:#5c90a3;
+		background-image:-webkit-gradient(linear, left top, left bottom, from(#cfe1fb), to(#5c90a3));
+		background-image:linear-gradient(to bottom, #cfe1fb, #5c90a3);
+	}
+
+footer {
+	 padding-top:10px;
+	 padding-bottom:10px;
+	 margin-top:20px;
+	 margin-left:40px;
+	 margin-bottom:5px;
+	 color:#5c90a3;
+	 font-size:.8rem;
+	 word-spacing:.25rem;
+}
+
+footer a {
+	 text-decoration:none;
+	 color:#5c90a3;
+	 font-size:.8rem;
+	 
 }
 
 
