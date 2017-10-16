@@ -12,39 +12,86 @@
 
 .kassnav ul {
 	display:block;
+}
+
+.kassnav ul li {
+	float:left;
+	position:relative;
 	list-style:none;
+	margin-bottom:1rem;
+	margin-right:0.3125rem;
+	width:8.4rem;
+	background-color:$mainBlue;
+	box-shadow:0 5px 4px rgba(0, 0, 0, .25);
+	box-sizing:border-box;
+	
 }
 
 .kassnav ul li a {
-	float:left;
-	margin-bottom:1rem;
-	margin-right:0.3125rem;
-	width:8rem;
-	height:2.125rem;
-	padding-top:0.7rem;
+	display:block;
 	padding-left:0.8rem;
 	text-decoration:none;
 	color:#fff;
 	font-weight:300;
 	font-size:1.2rem;
-	line-height:1.4rem;
+	line-height:2.6rem;
 	word-spacing:.25rem;
-	background-image:linear-gradient(to bottom, #cfe1fb, $mainBlue);
-	box-shadow:0 5px 4px rgba(0, 0, 0, .25);
-	transition:0.8s ease-out;
+	transition:1s ease-out;
 	
 }
 
 .kassnav ul li:hover > a {
-	color:$mainBlue;
-	background-image:linear-gradient(to bottom, $mainBlue, #cfe1fb);
-	}
-
-.kassnav ul li.active > a {
-	background-image:linear-gradient(to bottom, $mainBlue, #cfe1fb);
+	background-color:#c8542c;
 	}
 
 
+/* Submenu */
+.kassnav ul li > ul {
+	position:absolute;
+	width:8.4rem;
+	margin-left:-2.5rem;
+	z-index:-9999;
+	opacity:0;
+	-webkit-transition:0s ease-out;
+	-moz-transition:0s ease-out;
+	-ms-transition:0s ease-out;
+	-o-transition:0s ease-out;
+	transition:0s ease-out;
+	}
+
+	
+.kassnav ul li:hover > ul {
+	display:block;
+	z-index:100;
+	opacity:1;
+	}
+
+	
+.kassnav ul li > ul li {
+	width:100%;
+	padding:0px;
+	border-top:2px solid #fff;
+	margin-top:1px;
+	margin-bottom:-1px;
+	transition:.5s;
+	box-sizing:border-box;
+	}
+
+.kassnav ul li > ul li a {
+	display:block;
+	font-size:1rem;
+	}
+
+.kassnav ul li > ul li:hover > a {
+	display:block;
+	color:#fff;
+	background:#FC0;
+	}
+	
+.kassnav ul li > ul li:active > a {
+	color:#fff;
+	background:#3498DB;
+	}
 
 
 
