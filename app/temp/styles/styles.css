@@ -493,6 +493,14 @@ img {
 	margin-right:40px;
 }
 
+@media screen and (max-width: 460px) {
+	.page-content {
+		margin-left:20px;
+		margin-right:20px;
+	}
+	
+}
+
 .logo a {
 	display:block;
 	width:100%;
@@ -513,7 +521,7 @@ img {
 	float:left;
 	position:relative;
 	list-style:none;
-	margin-bottom:1rem;
+	margin-bottom:.5rem;
 	margin-right:0.3125rem;
 	width:8.4rem;
 	background-color:#5c90a3;
@@ -588,6 +596,18 @@ img {
 	background:#3498DB;
 	}
 
+@media screen and (max-width: 460px) {
+	.logo a {
+		margin-left:1.25rem;
+		font-weight:300;
+	}
+
+	.kassnav {
+		margin-left:-20px;
+	}
+	
+}
+
 /* Clearfix Method */
 
 /* =============== */
@@ -642,6 +662,13 @@ footer a {
 	 color:#5c90a3;
 	 font-size:.8rem;
 	 
+}
+
+@media screen and (max-width: 460px) {
+	footer {
+		margin-left:20px;
+	}
+	
 }
 
 /* Start Horizantal Nav with Dropdown menus */
@@ -755,5 +782,58 @@ footer a {
 	color:#fff;
 	background-color:#39C;
 	}
+
+/* Start of minimised button menus */
+
+#cpBtn {
+	margin-left:20px;
+	padding:3px 5px;
+	background-color:#ebedee;
+	border-radius:4px;
+	border:#fff;
+}
+
+#cpBtn:hover {
+	background-color:#d5edfb;
+}
+
+#cpBtn > div {
+	width:20px;
+	height:4px;
+	background:#5c90a3;
+	margin:3px 0px;
+	border-radius:4px;
+}
+
+/* Reveal and Hide Styles */
+
+.menu {
+	text-decoration:none;
+	padding-top:10px;
+	color:#083b5e;
+}
+
+.menu:hover {
+	color:#e41207;
+}
+
+.toggle-btn {
+	display:none;
+}
+
+@media screen and (max-width: 460px) {
+	.toggle-btn-visible {
+	display:block;
+	}
+	.toggle-target-hidden {
+	display:none;
+	}
+	.toggle-target-expanded {
+	display:block;
+	}
+	
+}
+
+/* End Reveal and Hide Styles */
 
 

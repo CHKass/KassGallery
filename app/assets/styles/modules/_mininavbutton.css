@@ -1,20 +1,20 @@
 /* Start of minimised button menus */
 
 #cpBtn {
+	margin-left:20px;
 	padding:3px 5px;
 	background-color:#ebedee;
 	border-radius:4px;
 	border:#fff;
 }
 #cpBtn:hover {
-	background-color:#c2d1df;
-	
+	background-color:#d5edfb;
 }
 
 #cpBtn > div {
 	width:20px;
 	height:4px;
-	background:$mainNav;
+	background:$mainBlue;
 	margin:3px 0px;
 	border-radius:4px;
 }	
@@ -37,7 +37,7 @@
 	display:none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 460px) {
 	.toggle-btn-visible {
 	display:block;
 	}

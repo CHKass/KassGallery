@@ -15,4 +15,10 @@ footer a {
 	 font-size:.8rem;
 	 
 }
+
+@media screen and (max-width: 460px) {
+	footer {
+		margin-left:20px;
+	}
 	
+} 	

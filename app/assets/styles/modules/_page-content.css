@@ -8,3 +8,16 @@
 	margin-left:40px;
 	margin-right:40px;
 }
+
+@media screen and (max-width: 460px) {
+	.page-content {
+		margin-left:20px;
+		margin-right:20px;
+	}
+	
+} 	
+
+
+
+
+

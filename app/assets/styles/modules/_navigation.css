@@ -18,7 +18,7 @@
 	float:left;
 	position:relative;
 	list-style:none;
-	margin-bottom:1rem;
+	margin-bottom:.5rem;
 	margin-right:0.3125rem;
 	width:8.4rem;
 	background-color:$mainBlue;
@@ -93,7 +93,17 @@
 	background:#3498DB;
 	}
 
+@media screen and (max-width: 460px) {
+	.logo a {
+		margin-left:1.25rem;
+		font-weight:300;
+	}
 
+	.kassnav {
+		margin-left:-20px;
+	}
+	
+} 	
 
 
 
