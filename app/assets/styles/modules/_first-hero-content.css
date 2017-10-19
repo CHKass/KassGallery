@@ -1,5 +1,4 @@
 .first-hero-content {
-	position:relative;
 	color:$mainGrey;
 	margin-top:1.875rem;
 
@@ -12,10 +11,23 @@
 		font-size:1rem;
 		font-weight:300;
 	}
+
+	
 }
 
-img {
+.slideshow {
+	margin-top:1.875rem;
+	margin-bottom:.625rem;	
+}
+
+.slideshow img {
 	max-height:400px;
 	width:auto;
 }
 
+@media screen and (max-width: 460px) {
+	.slideshow img {
+		max-height:600px;
+	}
+	
+} 	
