@@ -1,6 +1,27 @@
+.slideshow {
+	float:left;
+	max-height:auto;
+	margin-top:1.875rem;
+	box-sizing:border-box;	
+}
+
+img {
+	max-height:400px;
+	width:auto;
+}
+
+@media screen and (max-width: 460px) {
+	img {
+		max-height:800px;
+		width:auto;
+	}	
+} 
+
 .first-hero-content {
+	float:left;
 	color:$mainGrey;
 	margin-top:1.875rem;
+	box-sizing:border-box;
 
 	&__title {
 		font-size:1.4rem;
@@ -10,24 +31,16 @@
 	&__body {
 		font-size:1rem;
 		font-weight:300;
-	}
-
-	
-}
-
-.slideshow {
-	margin-top:1.875rem;
-	margin-bottom:.625rem;	
-}
-
-.slideshow img {
-	max-height:400px;
-	width:auto;
+	}	
 }
 
 @media screen and (max-width: 460px) {
-	.slideshow img {
-		max-height:600px;
-	}
-	
-} 	
+	.first-hero-content {
+		margin-top:800px;
+	}	
+} 
+
+
+
+
+

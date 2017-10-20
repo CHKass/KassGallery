@@ -2,22 +2,46 @@
 	max-width:1000px;
 	margin-left:auto;
 	margin-right:auto;
+	box-sizing:border-box;
 }
 
 .page-content {
-	margin-left:40px;
-	margin-right:40px;
+	margin-left:2.5rem;
+	margin-right:2.5rem;
+	box-sizing:border-box;
 }
 
 @media screen and (max-width: 460px) {
 	.page-content {
-		margin-left:20px;
-		margin-right:20px;
+		margin-left:1.25rem;
+		margin-right:1.25rem;
 	}
 	
 } 	
 
+/* Clearfix Method */
+/* =============== */
 
+.fix {
+	clear: both;
+}
+	
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+
+/* /End Clearfix Method */
+/* ==================== */
 
 
 
