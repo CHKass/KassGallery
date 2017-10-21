@@ -19,6 +19,11 @@ footer a {
 @media screen and (max-width: 460px) {
 	footer {
 		margin-left:20px;
+		font-size:.6rem;
+		word-spacing:.1rem;
 	}
 	
+	footer a {
+		font-size:.6rem;
+	}
 } 	
