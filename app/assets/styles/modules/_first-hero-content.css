@@ -1,6 +1,5 @@
-.slideshow {
+.cycle-slideshow {
 	float:left;
-	max-height:auto;
 	margin-top:1.875rem;
 	box-sizing:border-box;	
 }
@@ -11,8 +10,12 @@ img {
 }
 
 @media screen and (max-width: 460px) {
+	.cycle-slideshow {
+		margin-bottom:100px;
+	}
+
 	img {
-		max-height:800px;
+		max-height:400px;
 		width:auto;
 	}	
 } 
@@ -20,7 +23,7 @@ img {
 .first-hero-content {
 	float:left;
 	color:$mainGrey;
-	margin-top:1.875rem;
+	margin-top:.875rem;
 	box-sizing:border-box;
 
 	&__title {
@@ -39,7 +42,7 @@ img {
 	color:$mainBlue;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 320px) {
 	.first-hero-content {
 		z-index:-9999;
 		opacity:0;
