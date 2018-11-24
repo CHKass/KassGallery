@@ -33,21 +33,30 @@
 	color:#e41207;
 }
 
+
 .toggle-btn {
 	display:none;
 }
-
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 767px) {
 	.toggle-btn-visible {
-	display:block;
+		display:block;
 	}
 	.toggle-target-hidden {
-	display:none;
+		display:none;
 	}
 	.toggle-target-expanded {
-	display:block;
+		display:block;
 	}
-	
 }
+.first-hero-content .toggle-btn-visible {
+	display:block;
+}
+.first-hero-content .toggle-target-hidden {
+	display:none;
+}
+.first-hero-content .toggle-target-expanded {
+	display:block;
+}	
+
 
 /* End Reveal and Hide Styles */

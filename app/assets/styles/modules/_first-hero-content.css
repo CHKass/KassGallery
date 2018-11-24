@@ -41,6 +41,13 @@ img {
 	text-decoration:none;
 	color:$mainBlue;
 }
+.read-more {
+	color:#083b5e;
+	cursor:pointer;
+}
+.read-more:hover {
+	color:#e41207;
+}
 
 @media screen and (max-width: 320px) {
 	.first-hero-content {

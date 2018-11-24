@@ -33,6 +33,5 @@ jQuery(document).ready(function() {
 	jQuery(".text-name").click(function() {
 		jQuery(this).next(".info-text").fadeToggle(1000);
 	});
-
 	
 });
