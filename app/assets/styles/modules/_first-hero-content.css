@@ -41,11 +41,21 @@ img {
 	text-decoration:none;
 	color:$mainBlue;
 }
-.read-more {
+.read-more .read-less a {
 	color:#083b5e;
 	cursor:pointer;
 }
-.read-more:hover {
+.read-more a:hover {
+	color:#e41207;
+}
+.read-less a:hover {
+	color:#e41207;
+}
+.text-name .less-name a {
+	color:#083b5e;
+	cursor:pointer;
+}
+.text-name .less-name a:hover{
 	color:#e41207;
 }
 

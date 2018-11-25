@@ -18,8 +18,16 @@
 	margin:3px 0px;
 	border-radius:4px;
 }	
-
-
+@media screen and (max-width: 780px) {
+	#cpBtn {
+	margin-left:40px;
+	}
+}
+@media screen and (max-width: 460px) {
+	#cpBtn {
+	margin-left:20px;
+	}
+}
 
 
 /* Reveal and Hide Styles */
@@ -37,7 +45,7 @@
 .toggle-btn {
 	display:none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 780px) {
 	.toggle-btn-visible {
 		display:block;
 	}

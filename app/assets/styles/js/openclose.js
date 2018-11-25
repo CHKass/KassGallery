@@ -33,5 +33,10 @@ jQuery(document).ready(function() {
 	jQuery(".text-name").click(function() {
 		jQuery(this).next(".info-text").fadeToggle(1000);
 	});
+
+	// Handling the text reveal
+	jQuery(".less-name").click(function() {
+		$(".hidden").hide(500);
+	});
 	
 });

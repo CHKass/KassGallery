@@ -97,13 +97,19 @@
 	background:#3498DB;
 	}
 
+@media screen and (max-width: 780px) {
+	.kassnav  group {
+		margin-left:40px;
+	}
+}
+
 @media screen and (max-width: 460px) {
 	.logo a {
 		margin-left:1.25rem;
 		font-weight:300;
 	}
 
-	.kassnav {
+	.kassnav group {
 		margin-left:-20px;
 	}
 	

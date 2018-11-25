@@ -514,12 +514,25 @@ img {
 	color:#5c90a3;
 }
 
-.read-more {
+.read-more .read-less a {
 	color:#083b5e;
 	cursor:pointer;
 }
 
-.read-more:hover {
+.read-more a:hover {
+	color:#e41207;
+}
+
+.read-less a:hover {
+	color:#e41207;
+}
+
+.text-name .less-name a {
+	color:#083b5e;
+	cursor:pointer;
+}
+
+.text-name .less-name a:hover{
 	color:#e41207;
 }
 
@@ -678,13 +691,19 @@ img {
 	background:#3498DB;
 	}
 
+@media screen and (max-width: 780px) {
+	.kassnav  group {
+		margin-left:40px;
+	}
+}
+
 @media screen and (max-width: 460px) {
 	.logo a {
 		margin-left:1.25rem;
 		font-weight:300;
 	}
 
-	.kassnav {
+	.kassnav group {
 		margin-left:-20px;
 	}
 	
@@ -892,6 +911,18 @@ footer a {
 	border-radius:4px;
 }
 
+@media screen and (max-width: 780px) {
+	#cpBtn {
+	margin-left:40px;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	#cpBtn {
+	margin-left:20px;
+	}
+}
+
 /* Reveal and Hide Styles */
 
 .menu {
@@ -908,7 +939,7 @@ footer a {
 	display:none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 780px) {
 	.toggle-btn-visible {
 		display:block;
 	}
