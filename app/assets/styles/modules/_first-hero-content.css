@@ -47,9 +47,11 @@ img {
 }
 .read-more a:hover {
 	color:#e41207;
+	cursor:pointer;
 }
 .read-less a:hover {
 	color:#e41207;
+	cursor:pointer;
 }
 .text-name .less-name a {
 	color:#083b5e;
@@ -57,6 +59,10 @@ img {
 }
 .text-name .less-name a:hover{
 	color:#e41207;
+	cursor:pointer;
+}
+.info-text a:hover {
+	cursor:pointer;
 }
 
 @media screen and (max-width: 320px) {

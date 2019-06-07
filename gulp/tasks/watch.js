@@ -9,15 +9,15 @@ gulp.task('watch', function() {
 		server: {
 			baseDir: "app"
 		}
-	})
+	});
 	
-	watch('./app/index.html/*.html', function() {
+	watch('./app/**/*.html', function() {
 		browserSync.reload();
 	});
 
 	watch('./app/assets/styles/**/*.css', function() {
 		gulp.start('cssInject');
-	})
+	});
 });
 
 gulp.task('cssInject', ['styles'], function() {
